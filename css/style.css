@@ -1,0 +1,47 @@
+
+.hero{
+    background-image: url(../images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.heroContent{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroTitle{
+    margin-bottom: 100px;
+    color: white;
+}
+.heroTile span{
+    font-weight: lighter;
+}
+
+.nav-link{
+    font-size: 24px;
+}
+
+.nav-link.active{
+    border-bottom: 2px solid white;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding-right: 160px;
+    }
+    .navbar-brand {
+        width: 160px;
+    }
+    .nav-item {
+        padding: 0 40px;
+    }
+}
+@media (min-width: 1200px) {
+    .nav-item {
+        padding: 0 80px;
+    }
+}
